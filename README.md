@@ -3,17 +3,6 @@ Simple selenium tests with ruby.
 Test object: Ghost is an open source publishing platform (https://ghost.org/)
 
 
-Requirements:
-
-Ruby
-
-require 'page-object'
-
-require 'selenium-webdriver'
-
-require 'rspec'
-
-
 # How to get started:
 
 meet all requirements
@@ -21,6 +10,8 @@ meet all requirements
 $ git clone https://github.com/mkpythonanywhereblog/selenium-ruby.git
 
 $ cd selenium-ruby
+
+$ bundle install
 
 run the test with rspec, Chrome browser is started by default:
 
